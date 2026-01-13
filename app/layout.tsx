@@ -47,6 +47,9 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 5,
   },
+  icons: {
+    icon: '/images/favicon.png',
+  },
 }
 
 export default function RootLayout({
@@ -56,10 +59,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={`${montserrat.variable} ${playfairDisplay.variable}`}>
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://kanso.com" />
-      </head>
       <body className={`${montserrat.className} antialiased`}>
         {children}
       </body>

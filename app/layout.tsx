@@ -17,19 +17,19 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: 'Kansō - Experiencia de Usuario',
-  description: 'Sitio web moderno con efectos parallax y formulario de contacto. Diseño elegante y optimizado para SEO.',
-  keywords: ['diseño web', 'parallax', 'contacto', 'moderno', 'minimalista'],
+  description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
+  keywords: ['experiencia de usuario', 'ux/ui', 'transformación digital', 'kanso', 'diseño corporativo'],
   authors: [{ name: 'Kanso' }],
   openGraph: {
     title: 'Kansō - Experiencia de Usuario',
-    description: 'Sitio web moderno con efectos parallax y formulario de contacto.',
+    description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
     type: 'website',
     locale: 'es_ES',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Kansō - Experiencia de Usuario',
-    description: 'Sitio web moderno con efectos parallax y formulario de contacto.',
+    description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
   },
   robots: {
     index: true,

@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null)
@@ -79,11 +80,13 @@ export default function Hero() {
           <source src="/images/hero-video.mp4" type="video/mp4" />
         </video>
         {/* Fallback a imagen si el video no está disponible */}
-        <img
+        <Image
           src="/images/fondo_hero.jpg"
           alt="Fondo Hero"
-          className="absolute inset-0 w-full h-full object-cover hidden"
+          fill
+          className="object-cover hidden"
           style={{ display: 'none' }}
+          priority
         />
       </motion.div>
 

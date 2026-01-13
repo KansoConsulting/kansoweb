@@ -104,10 +104,10 @@ export default function CaseStudyPage() {
                         </h2>
                         <div className="space-y-6 text-lg leading-relaxed text-[#F5F2ED]/90">
                             <p>
-                                El problema no era la falta de voluntad, sino la fricción del proceso. Los empleados percibían el registro como un acto de vigilancia, una desconfianza sistemática que robaba segundos valiosos. Por otro lado, la administración sufría la "parálisis del dato sucio": información fragmentada, ilegible o directamente inexistente.
+                                El problema no era la falta de voluntad, sino la fricción del proceso. Los empleados percibían el registro como un acto de vigilancia, una desconfianza sistemática que robaba segundos valiosos. Por otro lado, la administración sufría la &quot;parálisis del dato sucio&quot;: información fragmentada, ilegible o directamente inexistente.
                             </p>
                             <p>
-                                El reto no era simplemente programar una app; era diseñar un ritual digital. Necesitábamos algo tan absurdamente sencillo que resultara invisible para el trabajador, eliminando la sensación de "fichar" para sustituirla por la seguridad de estar registrado de forma justa y transparente.
+                                El reto no era simplemente programar una app; era diseñar un ritual digital. Necesitábamos algo tan absurdamente sencillo que resultara invisible para el trabajador, eliminando la sensación de &quot;fichar&quot; para sustituirla por la seguridad de estar registrado de forma justa y transparente.
                             </p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export default function CaseStudyPage() {
                         03. Estrategia: La claridad como base del compromiso laboral
                     </h2>
                     <p className="text-left w-full mb-12 text-lg text-[#F5F2ED]/90">
-                        Nuestra intervención se alejó radicalmente de los softwares de gestión de personal convencionales, saturados de pestañas, perfiles y gráficos innecesarios. Bajo el principio Kansō de "Acción Única", decidimos que la interfaz debía ser un reflejo del momento de uso: rápido, directo y sin distracciones.
+                        Nuestra intervención se alejó radicalmente de los softwares de gestión de personal convencionales, saturados de pestañas, perfiles y gráficos innecesarios. Bajo el principio Kansō de &quot;Acción Única&quot;, decidimos que la interfaz debía ser un reflejo del momento de uso: rápido, directo y sin distracciones.
                     </p>
                     <p className="text-left w-full mb-12 text-lg text-[#F5F2ED]/90">
                         La estrategia consistió en transformar la percepción del dato. El registro horario no debía ser una herramienta de control para la empresa, sino una garantía de transparencia para el empleado. Al simplificar la interfaz al máximo, eliminamos la resistencia al uso y convertimos la herramienta en un aliado del trabajador.
@@ -149,7 +149,7 @@ export default function CaseStudyPage() {
                                     </li>
                                     <li className="pl-6 border-l-2 border-[#4A7C77]">
                                         <strong className="block text-[#F5F2ED] mb-1">El Dashboard de la Calma (Admin)</strong>
-                                        <span className="text-base">Rediseñamos la vista de Recursos Humanos para que dejara de ser una tabla infinita. Ahora, el sistema utiliza "gestión por excepción": solo muestra alertas cuando algo no cuadra, permitiendo que el administrador ignore el 99% de los datos que son correctos.</span>
+                                        <span className="text-base">Rediseñamos la vista de Recursos Humanos para que dejara de ser una tabla infinita. Ahora, el sistema utiliza &quot;gestión por excepción&quot;: solo muestra alertas cuando algo no cuadra, permitiendo que el administrador ignore el 99% de los datos que son correctos.</span>
                                     </li>
                                     <li className="pl-6 border-l-2 border-[#4A7C77]">
                                         <strong className="block text-[#F5F2ED] mb-1">Sincronización Orgánica</strong>
@@ -198,16 +198,16 @@ export default function CaseStudyPage() {
                     <div className="grid md:grid-cols-2 gap-10">
                         <div className="bg-[#1A1C1D]/20 p-8 rounded-xl border border-[#F5F2ED]/10 text-left">
                             <strong className="block text-[#F5F2ED] mb-2 text-xl font-bold text-center">Para el equipo humano</strong>
-                            <p className="text-sm opacity-90 text-center">El "ritual del fichaje" se ha convertido en un gesto de dos segundos que aporta seguridad y reconocimiento a su jornada.</p>
+                            <p className="text-sm opacity-90 text-center">El &quot;ritual del fichaje&quot; se ha convertido en un gesto de dos segundos que aporta seguridad y reconocimiento a su jornada.</p>
                         </div>
                         <div className="bg-[#1A1C1D]/20 p-8 rounded-xl border border-[#F5F2ED]/10 text-left">
                             <strong className="block text-[#F5F2ED] mb-2 text-xl font-bold text-center">Para la estructura empresarial</strong>
-                            <p className="text-sm opacity-90 text-center">Se han eliminado los "viernes de pánico" en el departamento de RR.HH. Las auditorías son ahora procesos instantáneos y el margen de error se ha reducido a cero.</p>
+                            <p className="text-sm opacity-90 text-center">Se han eliminado los &quot;viernes de pánico&quot; en el departamento de RR.HH. Las auditorías son ahora procesos instantáneos y el margen de error se ha reducido a cero.</p>
                         </div>
                     </div>
 
                     <p className="text-center mt-12 text-lg italic opacity-90">
-                        "Hemos demostrado que cuando la tecnología es verdaderamente simple, deja de ser una carga para convertirse en una infraestructura silenciosa que sostiene y libera a la organización."
+                        &quot;Hemos demostrado que cuando la tecnología es verdaderamente simple, deja de ser una carga para convertirse en una infraestructura silenciosa que sostiene y libera a la organización.&quot;
                     </p>
                 </motion.section>
 

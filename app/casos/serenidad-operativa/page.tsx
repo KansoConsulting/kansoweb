@@ -104,7 +104,7 @@ export default function CaseStudyPage() {
                         </h2>
                         <div className="space-y-6 text-lg leading-relaxed text-[#F5F2ED]/90">
                             <p>
-                                El caos no era por falta de clientes, sino por el éxito del canal de comunicación. "Mis clientas no quieren una app ni registrarse en una web", nos confesó el cliente. Ellas buscaban la cercanía del chat, pero esa cercanía obligaba a la masajista a detener sus servicios para responder disponibilidad, confirmar horas y gestionar cancelaciones.
+                                El caos no era por falta de clientes, sino por el éxito del canal de comunicación. &quot;Mis clientas no quieren una app ni registrarse en una web&quot;, nos confesó el cliente. Ellas buscaban la cercanía del chat, pero esa cercanía obligaba a la masajista a detener sus servicios para responder disponibilidad, confirmar horas y gestionar cancelaciones.
                             </p>
                             <p>
                                 El reto Kansō era claro: ¿Cómo digitalizar un negocio artesanal sin añadir complejidad y, sobre todo, sin romper el silencio necesario para el tratamiento?
@@ -222,12 +222,12 @@ export default function CaseStudyPage() {
                         <div className="text-center">
                             <div className="text-5xl md:text-6xl font-bold mb-2">15h</div>
                             <div className="text-lg font-medium opacity-80 uppercase tracking-widest mb-4">Mensuales Recuperadas</div>
-                            <p className="text-sm opacity-70 max-w-xs mx-auto">Tiempo que antes se perdía "picando" datos y gestionando la agenda manualmente.</p>
+                            <p className="text-sm opacity-70 max-w-xs mx-auto">Tiempo que antes se perdía &quot;picando&quot; datos y gestionando la agenda manualmente.</p>
                         </div>
                     </div>
 
                     <p className="text-center mt-12 text-lg italic opacity-90">
-                        "En este salón, ahora la única conexión que importa es la de las manos con la piel; del resto, se encarga el silencio de la automatización."
+                        &quot;En este salón, ahora la única conexión que importa es la de las manos con la piel; del resto, se encarga el silencio de la automatización.&quot;
                     </p>
                 </motion.section>
 

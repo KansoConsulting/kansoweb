@@ -104,10 +104,10 @@ export default function CaseStudyPage() {
                         </h2>
                         <div className="space-y-6 text-lg leading-relaxed text-[#F5F2ED]/90">
                             <p>
-                                El problema crítico no radicaba en la falta de información, sino en la asfixia que provocaba el exceso de la misma. Los operarios recibían sus órdenes de picking en terminales portátiles con pantallas pequeñas, saturadas de datos técnicos irrelevantes para su tarea inmediata. "A veces tengo que leer diez líneas de texto pequeño, entre códigos de barras y SKUs, solo para entender qué caja debo coger y a qué palet llevarla", nos confesaba uno de los trabajadores con fatiga evidente.
+                                El problema crítico no radicaba en la falta de información, sino en la asfixia que provocaba el exceso de la misma. Los operarios recibían sus órdenes de picking en terminales portátiles con pantallas pequeñas, saturadas de datos técnicos irrelevantes para su tarea inmediata. &quot;A veces tengo que leer diez líneas de texto pequeño, entre códigos de barras y SKUs, solo para entender qué caja debo coger y a qué palet llevarla&quot;, nos confesaba uno de los trabajadores con fatiga evidente.
                             </p>
                             <p>
-                                Este "ruido visual" no era inofensivo: se traducía directamente en errores de envío que generaban devoluciones costosas, una fatiga cognitiva que mermaba la seguridad y una rotación de personal alarmante. El estrés de no poder cumplir con los tiempos de expedición por culpa de una herramienta ineficiente estaba minando la moral del equipo. El desafío era monumental: transformar un sistema de datos masivos en una herramienta de precisión quirúrgica que se pudiera manejar casi por instinto.
+                                Este &quot;ruido visual&quot; no era inofensivo: se traducía directamente en errores de envío que generaban devoluciones costosas, una fatiga cognitiva que mermaba la seguridad y una rotación de personal alarmante. El estrés de no poder cumplir con los tiempos de expedición por culpa de una herramienta ineficiente estaba minando la moral del equipo. El desafío era monumental: transformar un sistema de datos masivos en una herramienta de precisión quirúrgica que se pudiera manejar casi por instinto.
                             </p>
                         </div>
                     </div>
@@ -124,10 +124,10 @@ export default function CaseStudyPage() {
                         03. Estrategia: La eliminación como motor de velocidad absoluta
                     </h2>
                     <p className="text-left w-full mr-auto mb-12 text-lg text-[#F5F2ED]/90">
-                        Nuestra intervención no buscaba añadir "parches" ni más funcionalidades. Aplicando los principios de Kansō, nuestra estrategia se centró en la reducción radical y la destilación de la esencia. Entendimos que en un almacén, cada segundo de duda es una pérdida de eficiencia.
+                        Nuestra intervención no buscaba añadir &quot;parches&quot; ni más funcionalidades. Aplicando los principios de Kansō, nuestra estrategia se centró en la reducción radical y la destilación de la esencia. Entendimos que en un almacén, cada segundo de duda es una pérdida de eficiencia.
                     </p>
                     <p className="text-left w-full mr-auto mb-12 text-lg text-[#F5F2ED]/90">
-                        Decidimos "limpiar el camino" físico y mental del operario. Aplicamos una jerarquía visual estricta para separar lo crítico (la ubicación y la cantidad) de lo accesorio (metadatos del producto). En lugar de presentar una base de datos en miniatura, rediseñamos la experiencia para que la interfaz mostrara una única acción a la vez. No añadimos botones; eliminamos distracciones. El objetivo era que el operario pudiera entrar en un "estado de flujo", ese momento donde la mente y el cuerpo se mueven en armonía porque el siguiente paso es siempre obvio, natural y carente de duda.
+                        Decidimos &quot;limpiar el camino&quot; físico y mental del operario. Aplicamos una jerarquía visual estricta para separar lo crítico (la ubicación y la cantidad) de lo accesorio (metadatos del producto). En lugar de presentar una base de datos en miniatura, rediseñamos la experiencia para que la interfaz mostrara una única acción a la vez. No añadimos botones; eliminamos distracciones. El objetivo era que el operario pudiera entrar en un &quot;estado de flujo&quot;, ese momento donde la mente y el cuerpo se mueven en armonía porque el siguiente paso es siempre obvio, natural y carente de duda.
                     </p>
                 </motion.section>
 
@@ -152,7 +152,7 @@ export default function CaseStudyPage() {
                                         <span className="text-base">Implementamos un sistema de colores (Teal para éxito, Carbono para espera) y vibraciones que confirman la acción sin necesidad de leer la pantalla.</span>
                                     </li>
                                     <li className="pl-6 border-l-2 border-[#4A7C77]">
-                                        <strong className="block text-[#F5F2ED] mb-1">Arquitectura "Glanceable"</strong>
+                                        <strong className="block text-[#F5F2ED] mb-1">Arquitectura &quot;Glanceable&quot;</strong>
                                         <span className="text-base">Diseñamos el layout para que pudiera ser interpretado en menos de un segundo, permitiendo que el operario mantenga la vista en la carga.</span>
                                     </li>
                                 </ul>
@@ -209,7 +209,7 @@ export default function CaseStudyPage() {
                     </div>
 
                     <p className="text-center mt-12 text-lg italic opacity-90">
-                        "La logística dejó de ser una lucha contra el software para convertirse en un flujo de precisión constante."
+                        &quot;La logística dejó de ser una lucha contra el software para convertirse en un flujo de precisión constante.&quot;
                     </p>
                 </motion.section>
 

@@ -20,9 +20,9 @@ export default function Separator() {
           className="text-2xl md:text-3xl font-light text-[#F5F2ED] italic leading-relaxed"
           style={{ fontFamily: 'var(--font-playfair), serif' }}
         >
-          "Haz solo lo esencial. Pregúntate en cada momento:
+          &quot;Haz solo lo esencial. Pregúntate en cada momento:
           <br />
-          ¿Es esto necesario?"
+          ¿Es esto necesario?&quot;
         </blockquote>
         <p className="text-[#F5F2ED]/70 text-sm md:text-base mt-4">
           — Marco Aurelio, <em>Meditaciones</em>

@@ -3,8 +3,9 @@
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
+import { sendEmail } from '@/app/actions/sendEmail'
 
 const contactSchema = z.object({
   name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres'),
@@ -17,6 +18,7 @@ type ContactFormData = z.infer<typeof contactSchema>
 export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const [showModal, setShowModal] = useState(false)
 
   const {
     register,
@@ -32,12 +34,6 @@ export default function ContactForm() {
     setSubmitStatus('idle')
 
     try {
-      // Aquí puedes integrar con un servicio como Formspree, EmailJS, o una API route
-      // Ejemplo con Formspree (necesitarás crear una cuenta en formspree.io):
-      // const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(data),
       // })
 
       // Por ahora, simulamos el envío

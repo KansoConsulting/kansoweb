@@ -115,11 +115,7 @@ export default function Header({ forceDark = false }: HeaderProps) {
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
         <nav
-          className="md:hidden fixed top-20 left-0 right-0 z-40 py-4 px-4 transition-all duration-300"
-          style={{
-            backgroundColor: `rgba(26, 28, 29, ${bgOpacity})`,
-            backdropFilter: bgOpacity > 0 ? 'blur(10px)' : 'none'
-          }}
+          className="md:hidden fixed top-20 left-0 right-0 z-40 py-4 px-4 transition-all duration-300 bg-[#1A1C1D] border-b border-[#F5F2ED]/10"
         >
           <div className="flex flex-col items-center gap-6">
             {menuItems.map((item) => (

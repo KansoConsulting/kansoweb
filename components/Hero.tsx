@@ -101,16 +101,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="font-bold mb-6 flex items-center justify-center gap-4 text-5xl md:text-7xl"
+          className="font-bold mb-6 flex items-center justify-center gap-4 text-3xl md:text-7xl"
           style={{ fontFamily: "'Klee One', serif", color: '#F5F2ED' }}
         >
-          簡素 <span className="text-5xl md:text-7xl font-bold" style={{ fontFamily: 'var(--font-playfair), serif', color: '#F5F2ED' }}>{'{ kansō }'}</span>
+          簡素 <span className="text-3xl md:text-7xl font-bold" style={{ fontFamily: 'var(--font-playfair), serif', color: '#F5F2ED' }}>{'{ kansō }'}</span>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl text-[#F5F2ED]/90 max-w-4xl mx-auto space-y-6 leading-loose"
+          className="text-base md:text-2xl text-[#F5F2ED]/90 max-w-4xl mx-auto space-y-6 leading-loose"
           style={{ fontFamily: 'var(--font-playfair), serif' }}
         >
           <p>

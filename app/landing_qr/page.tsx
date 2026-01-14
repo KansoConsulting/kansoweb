@@ -6,10 +6,10 @@ import { IoPersonAddSharp } from 'react-icons/io5'
 
 export default function LandingQR() {
     return (
-        <main className="min-h-screen bg-[#1A1C1D] flex flex-col items-center justify-center p-6 text-center font-sans">
-            {/* Brand Section */}
-            <div className="mb-2 flex flex-col items-center">
-                <div className="relative w-64 h-24 mb-2">
+        <main className="min-h-screen bg-[#1A1C1D] flex flex-col items-center justify-start gap-12 py-16 px-6 text-center font-sans">
+            {/* Header Group */}
+            <div className="flex flex-col items-center w-full">
+                <div className="relative w-64 h-24">
                     <Image
                         src="/images/logo_header.png"
                         alt="Kansō"
@@ -18,16 +18,15 @@ export default function LandingQR() {
                         priority
                     />
                 </div>
-            </div>
 
-            {/* Profile Section */}
-            <div className="mb-12">
-                <h1 className="text-4xl md:text-5xl font-bold text-[#F5F2ED] tracking-widest mb-2 font-sans">
-                    NOEL LAZUÉN
-                </h1>
-                <p className="text-xl text-[#F5F2ED]/50 font-light italic uppercase tracking-wider">
-                    Consultoría UX
-                </p>
+                <div className="mt-4">
+                    <h1 className="text-4xl md:text-5xl font-bold text-[#F5F2ED] tracking-widest mb-2 font-sans">
+                        NOEL LAZUÉN
+                    </h1>
+                    <p className="text-xl text-[#F5F2ED]/50 font-light italic uppercase tracking-wider">
+                        Consultoría UX
+                    </p>
+                </div>
             </div>
 
             {/* Actions Section */}
@@ -71,7 +70,7 @@ export default function LandingQR() {
                 </a>
             </div>
 
-            <p className="text-[#F5F2ED]/60 text-xs uppercase tracking-widest max-w-xs mt-20">
+            <p className="text-[#F5F2ED]/60 text-xs uppercase tracking-widest max-w-xs mt-8">
                 Conectamos tecnología y personas con sencillez
             </p>
         </main>

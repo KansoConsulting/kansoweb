@@ -18,9 +18,6 @@ export default function LandingQR() {
                         priority
                     />
                 </div>
-                <p className="text-[#F5F2ED]/60 text-xs uppercase tracking-widest max-w-xs">
-                    Conectamos tecnología y personas con sencillez
-                </p>
             </div>
 
             {/* Profile Section */}
@@ -73,6 +70,10 @@ export default function LandingQR() {
                     <span>Añadir a agenda</span>
                 </a>
             </div>
+
+            <p className="text-[#F5F2ED]/60 text-xs uppercase tracking-widest max-w-xs mt-20">
+                Conectamos tecnología y personas con sencillez
+            </p>
         </main>
     )
 }

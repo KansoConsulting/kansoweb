@@ -8,8 +8,8 @@ export default function LandingQR() {
     return (
         <main className="min-h-screen bg-[#1A1C1D] flex flex-col items-center justify-center p-6 text-center font-sans">
             {/* Brand Section */}
-            <div className="mb-12 flex flex-col items-center">
-                <div className="relative w-64 h-24 mb-6">
+            <div className="mb-2 flex flex-col items-center">
+                <div className="relative w-64 h-24 mb-2">
                     <Image
                         src="/images/logo_header.png"
                         alt="Kansō"

@@ -43,7 +43,7 @@ export default function Footer() {
               <br />
               hola@kanso.consulting
               <br />
-              Tel: +34 123 456 789
+              Tel: 910 62 65 58
             </p>
           </div>
         </div>

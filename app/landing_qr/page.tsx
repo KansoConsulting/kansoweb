@@ -4,20 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function LandingQR() {
-    // Generate VCard content
-    const vcardContent = `BEGIN:VCARD
-VERSION:3.0
-N:Lazuén;Noel;;;
-FN:Noel Lazuén
-ORG:Kansō
-TITLE:Consultoría UX
-TEL;TYPE=WORK,VOICE:910626558
-EMAIL:hola@kanso.consulting
-URL:https://kanso.consulting
-END:VCARD`
-
-    const vcardHref = `data:text/vcard;charset=utf-8,${encodeURIComponent(vcardContent)}`
-
     return (
         <main className="min-h-screen bg-[#1A1C1D] flex flex-col items-center justify-center p-6 text-center font-sans">
             {/* Brand Section */}
@@ -50,7 +36,7 @@ END:VCARD`
             <div className="flex flex-col gap-4 w-full max-w-sm">
                 {/* Call Button */}
                 <Link
-                    href="tel:910626558"
+                    href="tel:+34910626558"
                     className="group flex items-center justify-center gap-4 bg-[#4A7C77] text-[#F5F2ED] p-5 rounded-xl text-xl font-medium shadow-lg hover:bg-[#3d6662] transition-colors"
                 >
                     <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
@@ -84,8 +70,8 @@ END:VCARD`
 
                 {/* Add to Contact Button */}
                 <a
-                    href={vcardHref}
-                    download="Noel_Lazuen_Kanso.vcf"
+                    href="/Kansō | Consultoría UX.vcf"
+                    download
                     className="group flex items-center justify-center gap-4 bg-[#4A7C77] text-[#F5F2ED] p-5 rounded-xl text-xl font-medium shadow-lg hover:bg-[#3d6662] transition-colors"
                 >
                     <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">

@@ -1,12 +1,14 @@
 'use client'
 
+import Image from 'next/image'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="text-[#F5F2ED] py-12 px-4" style={{ backgroundColor: '#4A7C77' }}>
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">Kansō</h3>
             <p className="text-[#F5F2ED]/80">
@@ -36,15 +38,27 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <p className="text-[#F5F2ED]/80">
+              <strong>MÉTODO KANSŌ SL</strong><br />
               Calle Hermosilla 48
               <br />
               28001 Madrid
-              <br />
               <br />
               hola@kanso.consulting
               <br />
               Tel: 910 62 65 58
             </p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold mb-4">WhatsApp</h4>
+            <div className="w-32 bg-white p-2 rounded-lg">
+              <Image
+                src="/images/qr_whatsapp.png"
+                alt="QR WhatsApp"
+                width={150}
+                height={150}
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
         <div className="border-t border-[#F5F2ED]/20 pt-8 text-center text-[#F5F2ED]/60">

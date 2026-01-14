@@ -70,8 +70,8 @@ export default function LandingQR() {
 
                 {/* Add to Contact Button */}
                 <a
-                    href="/Kansō | Consultoría UX.vcf"
-                    download
+                    href="https://vcard.link/card/Iv2U"
+                    target="_blank"
                     className="group flex items-center justify-center gap-4 bg-[#4A7C77] text-[#F5F2ED] p-5 rounded-xl text-xl font-medium shadow-lg hover:bg-[#3d6662] transition-colors"
                 >
                     <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">

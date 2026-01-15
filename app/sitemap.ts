@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://kanso.com'
+  const baseUrl = 'https://kanso.consulting'
 
   return [
     {

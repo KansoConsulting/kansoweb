@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { IoLogoWhatsapp, IoLogoLinkedin, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -48,16 +49,40 @@ export default function Footer() {
               Tel: 910 62 65 58
             </p>
           </div>
+
+          {/* Social / WhatsApp Column */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">WhatsApp</h4>
-            <div className="w-32 bg-white p-2 rounded-lg">
-              <Image
-                src="/images/qr_whatsapp.png"
-                alt="QR WhatsApp"
-                width={150}
-                height={150}
-                className="w-full h-auto"
-              />
+            {/* Desktop: WhatsApp QR */}
+            <div className="hidden md:block">
+              <h4 className="text-lg font-semibold mb-4">WhatsApp</h4>
+              <div className="w-32 bg-white p-2 rounded-lg">
+                <Image
+                  src="/images/qr_whatsapp.png"
+                  alt="QR WhatsApp"
+                  width={150}
+                  height={150}
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            {/* Mobile: Social Icons */}
+            <div className="md:hidden">
+              <h4 className="text-lg font-semibold mb-4">Síguenos</h4>
+              <div className="flex gap-6">
+                <a href="https://wa.me/34910626558" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                  <IoLogoWhatsapp size={32} />
+                </a>
+                <a href="https://www.linkedin.com/company/kanso-consulting" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                  <IoLogoLinkedin size={32} />
+                </a>
+                <a href="https://instagram.com" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                  <IoLogoInstagram size={32} />
+                </a>
+                <a href="https://twitter.com" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                  <IoLogoTwitter size={32} />
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -5,9 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/api/',
+      disallow: ['/admin/', '/documentacion-tecnica-login/', '/private/'],
     },
-    sitemap: 'https://kanso.com/sitemap.xml',
+    sitemap: 'https://kanso.consulting/sitemap.xml',
   }
 }
-

@@ -16,20 +16,27 @@ const playfairDisplay = Playfair_Display({
 
 
 export const metadata: Metadata = {
-  title: 'Kansō - Experiencia de Usuario',
-  description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
-  keywords: ['experiencia de usuario', 'ux/ui', 'transformación digital', 'kanso', 'diseño corporativo'],
+  metadataBase: new URL('https://kanso.consulting'),
+  title: 'Kansō | Consultoría UX y Estrategia de Diseño Minimalista',
+  description: 'En Kansō eliminamos el ruido operativo. Consultoría UX estratégica para transformar la complejidad en claridad. Diseñamos soluciones digitales que funcionan.',
+  keywords: ['Kansō', 'Kanso UX', 'diseño UX estratégico', 'consultoría diseño producto', 'minimalismo digital', 'optimización procesos B2B', 'diseño interfaces'],
   authors: [{ name: 'Kanso' }],
   openGraph: {
-    title: 'Kansō - Experiencia de Usuario',
-    description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
     type: 'website',
+    url: 'https://kanso.consulting',
+    title: 'Kansō | Consultoría UX y Estrategia de Diseño',
+    description: 'Diseñamos la claridad que tu negocio necesita. Especialistas en UX estratégica y optimización de procesos.',
+    images: ['/images/logo_kanso.png'],
     locale: 'es_ES',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kansō - Experiencia de Usuario',
-    description: 'Menos ruido, más precisión. Transformamos la complejidad operativa en flujos de trabajo invisibles que devuelven el tiempo y la calma a las organizaciones.',
+    title: 'Kansō | Consultoría UX',
+    description: 'Eliminamos el ruido operativo. Soluciones de diseño minimalista para problemas complejos.',
+    images: ['/images/logo_kanso.png'],
+  },
+  alternates: {
+    canonical: '/',
   },
   robots: {
     index: true,
@@ -57,9 +64,27 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Kansō Consulting",
+    "image": "https://kanso.consulting/images/logo_kanso.png",
+    "description": "Consultoría de diseño UX estratégico especializada en la optimización de procesos y minimalismo digital.",
+    "url": "https://kanso.consulting",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "España"
+    },
+    "serviceType": ["UX Design", "Product Strategy", "Process Optimization"]
+  }
+
   return (
     <html lang="es" className={`${montserrat.variable} ${playfairDisplay.variable}`}>
       <body className={`${montserrat.className} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>

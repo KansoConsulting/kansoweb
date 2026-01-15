@@ -53,16 +53,27 @@ export default function Footer() {
           {/* Social / WhatsApp Column */}
           <div>
             {/* Desktop: WhatsApp QR */}
-            <div className="hidden md:block">
-              <h4 className="text-lg font-semibold mb-4">WhatsApp</h4>
-              <div className="w-32 bg-white p-2 rounded-lg">
-                <Image
-                  src="/images/qr_whatsapp.png"
-                  alt="QR WhatsApp"
-                  width={150}
-                  height={150}
-                  className="w-full h-auto"
-                />
+            {/* Desktop: WhatsApp QR & Socials */}
+            <div className="hidden md:flex gap-4">
+              <div>
+                <h4 className="text-lg font-semibold mb-4">WhatsApp</h4>
+                <div className="w-32 bg-white p-2 rounded-lg">
+                  <Image
+                    src="/images/qr_whatsapp.png"
+                    alt="QR WhatsApp"
+                    width={150}
+                    height={150}
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-col justify-end gap-3 pb-1">
+                <a href="https://www.linkedin.com/company/kans%C5%8D" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors" title="LinkedIn">
+                  <IoLogoLinkedin size={28} />
+                </a>
+                <a href="https://www.instagram.com/kanso.consulting" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors" title="Instagram">
+                  <IoLogoInstagram size={28} />
+                </a>
               </div>
             </div>
 
@@ -73,14 +84,11 @@ export default function Footer() {
                 <a href="https://wa.me/34910626558" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
                   <IoLogoWhatsapp size={32} />
                 </a>
-                <a href="https://www.linkedin.com/company/kanso-consulting" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                <a href="https://www.linkedin.com/company/kans%C5%8D" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
                   <IoLogoLinkedin size={32} />
                 </a>
-                <a href="https://instagram.com" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
+                <a href="https://www.instagram.com/kanso.consulting" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
                   <IoLogoInstagram size={32} />
-                </a>
-                <a href="https://twitter.com" target="_blank" className="text-white hover:text-[#F5F2ED]/80 transition-colors">
-                  <IoLogoTwitter size={32} />
                 </a>
               </div>
             </div>
